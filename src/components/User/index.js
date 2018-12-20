@@ -1,7 +1,7 @@
 import React from 'react';
 import './styles.scss';
 
-const user = props => {
+const User = props => {
   const { user } = props;
   return (
     <div className="user">
@@ -9,9 +9,9 @@ const user = props => {
       <span>{user.name}</span>
       <span>{user.age} years</span>
       <button>Update</button>
-      <button>Delete</button>
+      <button onClick={props.onDeleteHandler(user.id)}>Delete</button>
     </div>
   );
 };
 
-export default user;
+export default User;
