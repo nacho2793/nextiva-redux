@@ -12,11 +12,7 @@
   &:nth-child(2n-1) {
     background-color: #e69f00;
   }
-  &-name {
-    margin: 0 2rem;
-    width: 12rem;
-  }
-  &-age {
+  &-name, &-age, input {
     margin: 0 2rem;
     width: 12rem;
   }
