@@ -26,10 +26,10 @@ button {
   padding: .5rem;
 
   &[type="submit"] {
-    background-color: green;
+    background-color: #022c7c;
     color: white;
     &:disabled {
-      background-color: rgba(green, .5);
+      background-color: rgba(#022c7c, .5);
     }
   }
   &[type="cancel"] {

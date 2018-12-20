@@ -26,7 +26,7 @@ class CreateUser extends Component {
     return (
       <div className="create-user">
         <form>
-          <Input name="nextiva user" value={name} onChange={this.onTypeHandler('name')} key="user-name-input"/>
+          <Input name="nextiva user" value={name} onChange={this.onTypeHandler('name')} key="user-name-input" autocomplete="off"/>
           <Input name="age" value={age} onChange={this.onTypeHandler('age')} type="number"/>
           <button type="submit" disabled={!name || !age} onClick={this.onCreateHandler}>Create</button>
           <button type="cancel">Cancel</button>

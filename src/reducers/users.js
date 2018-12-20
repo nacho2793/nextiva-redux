@@ -18,7 +18,8 @@ const initialState = {
       age: "26",
       id: "cjpx4105700043g5peumntm94",
       name: "Marco"
-    },],
+    }
+  ]
 }
 
 
